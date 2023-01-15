@@ -22,9 +22,9 @@ const Newsletter = ({
       <Container>
         <NewsletterWrapper>
           <Box {...textArea}>
-            <Heading content="Get Started Mining now!" {...title} />
+            <Heading content="Get Started now!" {...title} />
             <Text
-              content="Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolore"
+              content="Join the Community and Follow us on Twitter and Discard"
               {...description}
             />
           </Box>

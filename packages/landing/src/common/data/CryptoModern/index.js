@@ -75,26 +75,32 @@ export const Features = [
 /* ------------------------------------ */
 // Wallet  data section
 /* ------------------------------------ */
-import walletIcon1 from 'common/assets/image/cryptoModern/wallet1.png';
-import walletIcon2 from 'common/assets/image/cryptoModern/wallet2.png';
-import walletIcon3 from 'common/assets/image/cryptoModern/wallet3.png';
+import walletIcon1 from 'common/assets/image/cryptoModern/efficiency.png';
+import walletIcon2 from 'common/assets/image/cryptoModern/tax.png';
+import walletIcon3 from 'common/assets/image/cryptoModern/hedging.png';
+import walletIcon4 from 'common/assets/image/cryptoModern/liquidity.png';
 
 export const WalletFeatures = [
   {
     id: 1,
     icon: walletIcon1,
-    title: 'Secure transfers with verified Casinos.',
+    title: 'Capital efficiency',
   },
   {
     id: 2,
     icon: walletIcon2,
-    title: 'Easily buy and sell CLV within the wallet',
+    title: 'Tax efficiency',
   },
   {
     id: 3,
     icon: walletIcon3,
-    title: 'Pay as many as you want',
+    title: 'Hedging',
   },
+  {
+    id: 4,
+    icon: walletIcon4,
+    title: 'Higher liquidity',
+  }
 ];
 
 /* ------------------------------------ */

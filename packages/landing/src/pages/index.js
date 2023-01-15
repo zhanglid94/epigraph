@@ -48,7 +48,7 @@ const Main = () => {
             {/* <WalletSection /> */}
             {/* <MapSection /> */}
             {/* <FaqSection /> */}
-            {/* <Newsletter /> */}
+            <Newsletter />
           </ContentWrapper>
           <Footer />
         </CryptoWrapper>
