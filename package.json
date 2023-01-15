@@ -1,9 +1,9 @@
 {
-  "name": "superprops",
-  "description": "Modern Multipurpose Landing Pages Template Using React, Next, Styled Components and so on. ",
-  "version": "13.0.0",
+  "name": "epigraph",
+  "description": "A crypto-native, instant-settlement, all-in-one DeFi portal for everyone.",
+  "version": "1.0.0",
   "private": true,
-  "author": "RedQ, Inc",
+  "author": "dongzl2017@gmail.com",
   "devDependencies": {
     "cross-env": "^7.0.2",
     "husky": "^7.0.2",
