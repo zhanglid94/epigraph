@@ -30,7 +30,7 @@ export default class CustomDocument extends Document {
       <Html lang="en">
         <Head>
           <meta name="theme-color" content="#2563FF" />
-          <link rel="icon" href="/favicon.png" />
+          <link rel="icon" href="/favicon.svg" />
           <link
             href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i"
             rel="stylesheet"

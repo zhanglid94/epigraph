@@ -32,7 +32,7 @@ const Footer = ({
               title="Hosting"
               logoStyle={logoStyle}
             />
-            <Text content="hello@epigraph.io" {...textStyle} />
+            <Text content="info@epigraph.fi" {...textStyle} />
             {/* <Text content="+479-443-9334" {...textStyle} /> */}
           </Box>
           {/* End of footer logo column */}

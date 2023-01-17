@@ -46,7 +46,7 @@ const Main = () => {
             {/* <FundRaising /> */}
             {/* <Privacypolicy /> */}
             {/* <WalletSection /> */}
-            {/* <MapSection /> */}
+            <MapSection />
             {/* <FaqSection /> */}
             <Newsletter />
           </ContentWrapper>

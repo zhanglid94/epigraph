@@ -25,9 +25,9 @@ const FeatureSection = ({
     <FeatureSectionWrapper id="key-features">
       <Container>
         <Box {...sectionHeader} className="sectionHeader">
-          <Text content="Why you choose EpiGraph" {...sectionSubTitle} />
+          <Text content="Why you choose EpiGraph Finance" {...sectionSubTitle} />
           <Heading
-            content="Build a truthless DeFi strategies portal for everyone. Epigraph streamlines the process to invest with complex, safer and high yield quantitative strategies."
+            content="Build A crypto-native, instant-settlement, all-in-one DeFi portal for everyone. EpiGraph Finance streamlines the process to invest with complex, safer and high yield quantitative strategies."
             {...sectionTitle}
           />
         </Box>

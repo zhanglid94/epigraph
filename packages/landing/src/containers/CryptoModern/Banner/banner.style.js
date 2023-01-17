@@ -48,14 +48,14 @@ export const BannerContent = styled.div`
   }
 
   h1 {
-    font-size: 48px;
+    font-size: 52px;
     line-height: 1.25;
     font-weight: 400;
     color: ${themeGet('colors.menu', '#0D233E')};
     margin-bottom: 24px;
     letter-spacing: -0.025em;
     @media only screen and (max-width: 1440px) {
-      font-size: 38px;
+      font-size: 42px;
       margin-bottom: 20px;
     }
   }

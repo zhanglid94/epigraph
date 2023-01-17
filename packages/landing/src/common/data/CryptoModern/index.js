@@ -8,26 +8,26 @@ export const navbar = {
   navMenu: [
     {
       id: 1,
-      label: 'Investing',
-      path: '#',
+      label: 'Home',
+      path: '#home',
       offset: '81',
     },
     {
       id: 2,
-      label: 'Products',
-      path: '#',
+      label: 'Features',
+      path: '#key-features',
       offset: '81',
     },
     {
       id: 3,
-      label: 'Githubs',
-      staticLink: "https://github.com/",
+      label: 'Products',
+      path: '#products',
       offset: '81',
     },
     {
       id: 4,
-      label: 'Community',
-      path: '#',
+      label: 'Target Users',
+      path: '#targetUsers',
       offset: '81',
     },
   ],
@@ -47,14 +47,21 @@ export const Features = [
     icon: featureIcon1,
     title: 'Truthless',
     description:
-      'Transparent proof-of-deposit from on-chain data, flexible staking and instant withdrawal',
+      'Transparent proof-of-deposit from on-chain data. Flexible staking and instant settlement. Hundreds of crypto-market metrics monitored.',
   },
   {
     id: 2,
     icon: featureIcon2,
     title: 'One-stop solution',
     description:
-      'Aggregator for best available DeFi opportunities, diversified investment strategies for different risk profiles.',
+      'Diversified investment strategies for different market conditions. Risk hedged with sophisticated derivative, perpetual options, and structured products.',
+  },
+  {
+    id: 4,
+    icon: featureIcon4,
+    title: 'Chain-agnostic',
+    description:
+      'Layer 0 investment products/strategies for all major blockchains. Aggregator for best available DeFi opportunities. Democratize hedge fund strategies.',
   },
   {
     id: 3,
@@ -63,43 +70,36 @@ export const Features = [
     description:
       'Build the products based on blockchain’s inherent properties. Undercover the intrinsic of AMM.',
   },
-  {
-    id: 4,
-    icon: featureIcon4,
-    title: 'Chain-agnostic',
-    description:
-      'Layer 0 investment strategies for all major blockchains',
-  },
 ];
 
 /* ------------------------------------ */
 // Wallet  data section
 /* ------------------------------------ */
-import walletIcon1 from 'common/assets/image/cryptoModern/efficiency.png';
-import walletIcon2 from 'common/assets/image/cryptoModern/tax.png';
-import walletIcon3 from 'common/assets/image/cryptoModern/hedging.png';
-import walletIcon4 from 'common/assets/image/cryptoModern/liquidity.png';
+import walletIcon1 from 'common/assets/image/cryptoModern/retail.png';
+import walletIcon2 from 'common/assets/image/cryptoModern/ins.png';
+import walletIcon3 from 'common/assets/image/cryptoModern/so.png';
+import walletIcon4 from 'common/assets/image/cryptoModern/mm.png';
 
 export const WalletFeatures = [
   {
     id: 1,
     icon: walletIcon1,
-    title: 'Capital efficiency',
+    title: 'Retail Users',
   },
   {
     id: 2,
     icon: walletIcon2,
-    title: 'Tax efficiency',
+    title: 'Institutions',
   },
   {
     id: 3,
     icon: walletIcon3,
-    title: 'Hedging',
+    title: 'DAOs & protocol treasuries',
   },
   {
     id: 4,
     icon: walletIcon4,
-    title: 'Higher liquidity',
+    title: 'Market Makers & Liquidity Providers',
   }
 ];
 

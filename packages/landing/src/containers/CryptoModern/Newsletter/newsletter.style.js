@@ -31,7 +31,7 @@ const NewsletterWrapper = styled.div`
   }
 `;
 
-export const ContactFormWrapper = styled.div`
+export const ContactFormWrapper = styled.form`
   display: flex;
   align-items: flex-end;
   width: 470px;

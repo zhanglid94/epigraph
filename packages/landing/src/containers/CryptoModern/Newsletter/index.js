@@ -17,6 +17,13 @@ const Newsletter = ({
   title,
   description,
 }) => {
+  const handleSubmit = e => {
+    e.preventDefault();
+    const email = e.target.querySelector('#email_address').value;
+    fetch('/')
+    console.log(email);
+  };
+
   return (
     <Box {...sectionWrapper} as="section">
       <Container>
@@ -29,7 +36,7 @@ const Newsletter = ({
             />
           </Box>
           <Box {...buttonArea}>
-            <ContactFormWrapper>
+            <ContactFormWrapper onSubmit={handleSubmit}>
               <Input
                 inputType="email"
                 label="Email address"
@@ -37,7 +44,7 @@ const Newsletter = ({
                 isMaterial={true}
                 className="email_input"
               />
-              <Button {...buttonStyle} title="Get access" />
+              <Button {...buttonStyle} type="submit" title="Get access" />
             </ContactFormWrapper>
           </Box>
         </NewsletterWrapper>

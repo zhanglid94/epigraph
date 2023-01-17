@@ -19,23 +19,7 @@ const MapSection = () => {
     <SectionWrapper id="map">
       <Container width="1200px">
         <SectionHeader>
-          <Heading content="More than 3 Bilion worldwide use" />
-          <Text content="Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiu Lorem ipsum dolor sit ." />
-          <Text className="smallText" content="Licenced gambling countries" />
-          <div className="countries">
-            <div className="countriesSingle">
-              <Image src={country1?.src} alt="country image" />
-              <Text className="smallText" content="United Kingdom" />
-            </div>
-            <div className="countriesSingle">
-              <Image src={country2?.src} alt="country image" />
-              <Text className="smallText" content="South Africa" />
-            </div>
-            <div className="countriesSingle">
-              <Image src={country3?.src} alt="country image" />
-              <Text className="smallText" content="Spain" />
-            </div>
-          </div>
+          <Heading content="Trusted by Users Worldwide" />
         </SectionHeader>
         <ImageWrapper>
           <Image className="mainImg" src={mapImage?.src} alt="Map Image" />

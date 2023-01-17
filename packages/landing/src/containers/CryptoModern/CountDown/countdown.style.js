@@ -117,7 +117,6 @@ export const ContentWrapper = styled.div`
     padding-right: 16px;
     font-size: 14px;
     font-weight: 500;
-    text-transform: uppercase;
     margin-top: 30px;
 
     &.primary {

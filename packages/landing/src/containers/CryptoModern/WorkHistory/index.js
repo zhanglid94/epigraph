@@ -18,7 +18,7 @@ import shape4 from 'common/assets/image/cryptoModern/Shape-4.png';
 
 const WorkHistory = ({ row, col, cardStyle, btnStyle }) => {
   return (
-    <WorkHistoryWrapper id="workHistorySection">
+    <WorkHistoryWrapper id="products">
       <Container>
         <Box className="row" {...row}>
           <Box className="col" {...col}>

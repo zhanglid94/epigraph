@@ -6,23 +6,21 @@ import Image from 'common/components/Image';
 import NextImage from 'common/components/NextImage';
 import Container from 'common/components/UI/Container';
 import SectionWrapper, { ContentWrapper } from './investment.style';
-import GraphImg from 'common/assets/image/cryptoModern/graph.png';
+import GraphImg from 'common/assets/image/cryptoModern/pattern.gif';
 import { WalletFeatures } from 'common/data/CryptoModern';
 import FeatureBlock from 'common/components/FeatureBlock';
 import dummyImg from 'common/assets/image/cryptoModern/pattern.png';
 
 const InvestmentPortal = () => {
   return (
-    <SectionWrapper>
+    <SectionWrapper id="targetUsers">
       <Container>
         <ContentWrapper>
           <div className="content">
             <Fade up>
-              <Heading content="TradFi v.s. DeFi" />
+              <Heading content="Target Users" />
             </Fade>
             <Fade up delay={100}>
-              <Text content="3,500% (US equity) v.s. 2% (Cryto)" />
-              <Text content="Benefit of option" fontWeight="600" />
               <div className="walletfeatures">
                 {WalletFeatures.map((feature, index) => (
                   <Fade up delay={100 + index * 100}>

@@ -12,7 +12,7 @@ const CountDownSection = () => {
     <SectionWrapper>
       <Container>
         <ContentWrapper>
-          <Heading content="Saving, Farming, Basic Delta-Neutral starting in: " />
+          <Heading content="Our products starting in: " />
           <Fade up>
             <div className="timerCount">
               <NormalClock countdown={deadline} divider="true" />

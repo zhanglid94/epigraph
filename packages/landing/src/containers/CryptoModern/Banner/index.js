@@ -22,12 +22,12 @@ const Banner = () => {
           <Fade up>
             <Heading
               as="h1"
-              content={<>{"A crypto-native,"}<br />{"instant-settlement,"}<br />{"all-in-one DeFi portal for everyone."}</>}
+              content={<>Risk Hedged.<br />Return Optimized.</>}
             />
           </Fade>
           <Fade up delay={200}>
             <Text
-              content="Crypto-native derivatives, perpetual options, and structured products."
+              content="Diversify your portfolio & maximize your return with crypto-native derivatives, perpetual options, and structured products. "
             />
           </Fade>
         </BannerContent>
