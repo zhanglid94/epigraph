@@ -39,7 +39,7 @@ const Main = () => {
           </Sticky>
           <ContentWrapper>
             <Banner />
-            <CountDown />
+            {/* <CountDown /> */}
             <Features />
             <WorkHistory />
             <Investment />
